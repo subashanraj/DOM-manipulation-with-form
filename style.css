@@ -1,0 +1,121 @@
+body {
+    width: 0px;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+}
+
+#form {
+    margin: 25px 20px 10px 40px;
+    padding: 20px 20px 25px 25px;
+    width: 400px;
+    height: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+input {
+    height: 25px;
+    border-radius: 5px;
+    width: 200px;
+}
+textarea{
+    height: 25px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#first-name {
+    margin-left: 20px;
+}
+
+#last-name {
+    margin-left: 20px;
+}
+
+#address {
+    margin-left: 40px;
+}
+
+#state {
+    margin-left: 62px;
+}
+
+#email{
+    margin-left: 58px;
+}
+#country {
+    margin-left: 40px;
+}
+
+#pincode {
+    margin-left: 40px;
+}
+
+label {
+    font-size: large;
+    margin: 5px;
+    align-items: flex-start;
+}
+
+.gender {
+    display: flex;
+    width: 80%;
+    padding: 10px;
+    padding-bottom: 10px;
+    margin-left: -8px;
+}
+
+.food {
+    display: flex;
+    width: 80%;
+    padding: 10px;
+    padding-bottom: 10px;
+    margin-left: -10px;
+}
+
+#food {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-left: 12px;
+}
+
+p {
+    margin-top: 5px;
+}
+
+#check1 {
+    margin-left: 5px;
+}
+
+#submit {
+    display: flex;
+    width: 30%;
+    height: 40px;
+    padding: 10px;
+    justify-content: center;
+    margin-left: 140px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+.table {
+    margin: 30px;
+    width: 100%;
+    padding: 20px;
+    height: 150px;
+}

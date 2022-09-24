@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class='form-group'id="form"  >
+            <h1 id="title">APPLICATION FORM</h1>
+            <p id="description">Dom manipulation</p>
+            <span>
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" required="" placeholder="firstname">
+        </span>
+            <span>
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" required="" placeholder="lastname">
+        </span>
+        <span>
+            <label for="email">Email:</label>
+            <input type="text" id="email" required="" placeholder="email">
+        </span>
+            <span>
+            <label for="address">Address:</label>
+            <textarea id="address" rows='1' cols="25" placeholder="address">            </textarea>
+        </span>
+            <span>
+            <label for="state">State:</label>
+            <input type="text" id="state" required="" placeholder="state">
+        </span>
+            <span>
+            <label for="country">Country:</label>
+            <input type="text" id="country" required="" placeholder="country">
+        </span>
+            <span>
+            <label for="pincode">Pincode:</label>
+            <input type="text" maxlength="6" id="pincode" required="" placeholder="pincode">
+        </span>
+            <div class="gender">
+                <label for="gender">Gender:</label>
+                <input type="radio" id="male" name="gender" value="Male" required="">Male
+
+                <input type="radio" id="female" name="gender" value="Female" required="">Female
+
+            </div>
+            <div class="food">
+                <label for="food" id="food">Food:</label>
+                <input type="checkbox" id="check1" name="food" value="Indian">Indian
+
+                <input type="checkbox" id="check2" name="food" value="Chinese">Chinese
+
+                <input type="checkbox" id="check3" name="food" value="Italian">Italian
+
+
+            </div>
+            <button class ='btn btn-primary' type="submit" id="submit" onclick="submit()">Submit</button>
+        </form>
+
+        <section class="table">
+            <table class="table-content" id="tableval">
+                <tr>
+                    <th>Firstname</th>
+                    <th>lastname</th>
+                    <th>Email</th>
+                    <th>Gender</th>
+                    <th>Address</th>
+                    <th>State</th>
+                    <th>Country</th>
+                    <th>Pincode</th>
+                    <th>Food</th>
+                </tr>
+                <tr>
+                    <td id="id1"></td>
+                    <td id="id2"></td>
+                    <td id="id9"></td>
+                    <td id="id3"></td>
+                    <td id="id4"></td>
+                    <td id="id5"></td>
+                    <td id="id6"></td>
+                    <td id="id7"></td>
+                    <td id="id8"></td>
+
+
+                </tr>
+            </table>
+        </section>
+
+        <script src="script.js"></script>
+        <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    </body>
+
+</html>
